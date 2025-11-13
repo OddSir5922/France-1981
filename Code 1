@@ -1,0 +1,224 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 10,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 10,
+        "fields": {
+            "year": 1976,
+            "summary": "<p>France is in the middle of a tight presidential election between Socialist François Mitterrand and incumbent President Valéry Giscard d’Estaing. Mitterrand is expanding his momentum after challenging Giscard’s tone after a debate, which has left an impression on viewers across the nation with color TV sets at home. The average French voter feels exhausted by inflation and the recent job losses, which has clearly been eating away at Giscard’s public image. Mitterrand offers a new path by promising greater public control over France's largest industries. The Place de la Bastille awaits to erupt in a celebration if Mitterrand pulls off a win or a widespread protest if d'Estaing upsets the majority of Paris.</p>",
+            "image_url": "https://i.postimg.cc/76ZMzDdC/Enable-1981-Image-French-Election.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/jordan-cheney-1976.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1976 Election Books and Biographies</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/0670454613/amhius20-20\" target=\"_blank\">Jules Witcover - Marathon: The Pursuit of the Presidency, 1972-1976</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/1590843630/amhius20-20\" target=\"_blank\">The Election of 1976 and the Administration of Jimmy Carter</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B007V955ZS/amhius20-20\" target=\"_blank\">Craig Shirley - Reagan's Revolution: The Untold Story of the Campaign That Started It All</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B001KBY7YI/amhius20-20\" target=\"_blank\">Douglas Brinkley - Gerald R. Ford</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0805089578/amhius20-20\" target=\"_blank\">Julian E. Zelizer - Jimmy Carter</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1981"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 153,
+        "fields": {
+            "first_name": "François",
+            "last_name": "Mitterrand",
+            "election": 10,
+            "party": "PS",
+            "state": "Jarnac",
+            "priority": 1,
+            "description": "François Mitterrand has been running for president for so long that his campaign posters are practically considered national antiques of the République’s wallpaper. With the socialistic glamour of a philosopher and the patience of a saint, Mitterrand is like your favourite vintage bottle of champagne that occasionally gives you a headache in Burgundy. This time, he garuntees changes within his own views with a slow and contemplative wink as if he’s been planning this all along in a chess game that only he understands. Mitterrand is the only candidate who quotes poetry at his rallies and still manages to sound threatening to the rich. While his opponent is handing out clichés just as much as he hands out baguettes, Mitterrand is out there rewriting the rules of French campaigns forever. So if you're tired of flashy promises and want a president who smolders with socialist intensity, François Mitterrand is your très chic revolution.",
+            "color_hex": "#ff00ff",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://cdn-s-www.estrepublicain.fr/images/36FECEFE-2B47-48EF-BE5A-5F5384C8121C/NW_raw/photo-eric-feferberg-afp-1630436719.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 253,
+        "fields": {
+            "first_name": "Socialist",
+            "last_name": "Party",
+            "election": 10,
+            "party": "Le Parti Socialiste",
+            "state": "Ivry-sur-Seine",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ff00ff",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Socialist_Party_%28France%29_2024_logo.svg/450px-Socialist_Party_%28France%29_2024_logo.svg.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Led by François Mitterrand, the PS is a left-wing party that continues to promote social\njustice and revolutionize its progressive beliefs. After being established in\n1905, the Socialist Party has its roots in various movements, but it has recently escalated the idea of the power of the working class while abiding by the concept of democratic socialism. In the 1981\nelection, Mitterrand's platform includes\nproposals for the nationalization of industry and the expansion of social\nprograms.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 152,
+        "fields": {
+            "first_name": "Valéry",
+            "last_name": "Giscard d'Estaing",
+            "election": 10,
+            "party": "UDF",
+            "state": "Chamalières",
+            "priority": 1,
+            "description": "Incumbent\nPresident Valéry Giscard d'Estaing is a man of great contrasts. He has the charisma of\nan aristocrat and the goals of a modern reformist. Giscard d'Estaing represents\ntradition with slow progress after his introduction of socially liberal acts, such as lowering the voting age to 18 and legalizing abortion, which can be seen by some in his party as modernizing French society. However, his perceived aloofness\nhas sometimes distanced him from the average voter. Giscard d'Estaing stands as the president of paradox: a forward-thinking liberal\nwrapped in the same traditions of old-world elegance. In this election, the Socialist Party will be labeling him as a conservative flip-flopper to their advantage.",
+            "color_hex": "#00ffff",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://cdn.britannica.com/19/229119-050-8B039242/Valery-Giscard-dEstaing-at-the-United-Nations-General-Assembly-New-York-City-1978.jpg?w=400&h=300&c=crop",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 252,
+        "fields": {
+            "first_name": "Union For",
+            "last_name": "French Democracy",
+            "election": 10,
+            "party": "Union Pour la Démocratie Française",
+            "state": "Paris",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#00ffff",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Union_for_French_Democracy_logo.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "The UDF is a\ncenter-right party encompassing\nliberal and Christian-democratic ideas. Founded in 1978 by President\nValéry Giscard d'Estaing, the UDF shall emphasize free-market\npolicies, European integration, and\nsocial liberalism in the 1981 election. Giscard d'Estaing's\nleadership will be centered on modernizing\nFrench society and the economy while he\nmaintains his traditional perspectives.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 166195,
+        "fields": {
+            "candidate": 152,
+            "running_mate": 252
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 119693,
+        "fields": {
+            "candidate": 153,
+            "running_mate": 253
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Odd_Sir_5922"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 10,
+        "candidates": [
+            153,
+            152
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 10,
+        "candidates": [
+            153,
+            152
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 10,
+        "year": 1976,
+        "is_premium": 0,
+        "display_year": "1981"
+    }
+]
+
+jet_data = {
+    "headerColor": "#ad61c2",
+    "windowColor": "#ad61c2",
+    "containerColor": "#ffffff",
+    "innerWindowColor": "#c26f61",
+    "bannerImageUrl": "https://media.lesechos.com/api/v1/images/view/625fb82b836b85643e4086da/contenu_article/image.jpg",
+    "backgroundImageUrl": "https://i.postimg.cc/59qLVKpJ/New-1981-French-Background.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "Révolte Du Palais Campaign"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>Révolte Du Palais Campaign</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ad61c2";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ad61c2";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#ffffff";
+
+document.getElementById("header").src = "https://media.lesechos.com/api/v1/images/view/625fb82b836b85643e4086da/contenu_article/image.jpg";
+
+document.body.background = "https://i.postimg.cc/59qLVKpJ/New-1981-French-Background.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#c26f61!important;}</style>";
+
+//#endcode
